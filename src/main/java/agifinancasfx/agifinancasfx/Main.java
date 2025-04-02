@@ -11,7 +11,6 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        // Carregar arquivo FXML
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/agifinancasfx/agifinancasfx/view/Login.fxml"));
         Parent root = loader.load();
 
