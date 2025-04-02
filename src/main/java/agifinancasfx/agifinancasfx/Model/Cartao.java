@@ -1,7 +1,5 @@
 
-package model;
-
-import java.util.Date;
+package agifinancasfx.agifinancasfx.Model;
 
 public class Cartao {
     private String nome;

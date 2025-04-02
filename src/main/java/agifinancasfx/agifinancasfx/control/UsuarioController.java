@@ -1,8 +1,7 @@
 package agifinancasfx.agifinancasfx.control;
 
-import DAO.UsuarioDAO;
-import model.Usuario;
-
+import agifinancasfx.agifinancasfx.DAO.UsuarioDAO;
+import agifinancasfx.agifinancasfx.Model.Usuario;
 public class UsuarioController {
     private UsuarioDAO usuarioDAO;
 
@@ -23,7 +22,7 @@ public class UsuarioController {
             //usuarioView.mensagemErro("CPF já cadastrado");
             return;
         }
-        String senhaHash = control.Senha.hashSenha(senha);
+        String senhaHash = Senha.hashSenha(senha);
         if (usuarioDAO.criarUsuario(usuario)) {
             //usuarioView.mensagemSucesso("Usuário cadastrado com sucesso!");
         } else {

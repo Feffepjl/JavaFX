@@ -1,7 +1,7 @@
-package DAO;
+package agifinancasfx.agifinancasfx.DAO;
 
-import model.JDBC_Connection;
-import model.LancamentosCartao;
+import agifinancasfx.agifinancasfx.Model.JDBC_Connection;
+import agifinancasfx.agifinancasfx.Model.LancamentosCartao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

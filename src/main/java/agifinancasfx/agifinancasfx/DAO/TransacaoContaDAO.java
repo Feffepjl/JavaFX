@@ -1,9 +1,9 @@
-package DAO;
+package agifinancasfx.agifinancasfx.DAO;
 
-import model.Categoria;
-import model.JDBC_Connection;
-import model.TransacaoConta;
-import model.Usuario;
+import agifinancasfx.agifinancasfx.Model.Categoria;
+import agifinancasfx.agifinancasfx.Model.JDBC_Connection;
+import agifinancasfx.agifinancasfx.Model.TransacaoConta;
+import agifinancasfx.agifinancasfx.Model.Usuario;
 
 import java.sql.*;
 import java.util.ArrayList;

@@ -1,13 +1,13 @@
-package DAO;
+package agifinancasfx.agifinancasfx.DAO;
 
-import model.JDBC_Connection;
-import model.Cartao;
+import agifinancasfx.agifinancasfx.Model.JDBC_Connection;
+import agifinancasfx.agifinancasfx.Model.Cartao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Date;
+
 public class CartaoDAO {
     public void createCartao(Cartao cartao) {
         String inserirCartao = "INSERT INTO cartao (id_usuario, nome, limite, data_fechamento, data_validade) values (?, ?, ?, ?, ?)";

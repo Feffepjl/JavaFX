@@ -1,13 +1,10 @@
 package agifinancasfx.agifinancasfx.control;
 
 import agifinancasfx.agifinancasfx.DAO.CategoriaDAO;
-import DAO.TransacaoContaDAO;
-import model.Categoria;
-import model.Usuario;
-
-import java.sql.PreparedStatement;
+import agifinancasfx.agifinancasfx.DAO.TransacaoContaDAO;
+import agifinancasfx.agifinancasfx.Model.Categoria;
+import agifinancasfx.agifinancasfx.Model.Usuario;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.util.List;
 
 public class OrcamentoControl {

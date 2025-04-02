@@ -1,9 +1,8 @@
-package agifinancasfx.agifinancasfx.model;
+package agifinancasfx.agifinancasfx.Model;
 
 
 import agifinancasfx.agifinancasfx.DAO.CategoriaDAO;
-import DAO.UsuarioDAO;
-import control.Senha;
+import agifinancasfx.agifinancasfx.DAO.UsuarioDAO;
 
 import java.sql.SQLException;
 

@@ -1,7 +1,7 @@
 package agifinancasfx.agifinancasfx.control;
 
-import DAO.UsuarioDAO;
-import model.Usuario;
+import agifinancasfx.agifinancasfx.DAO.UsuarioDAO;
+import agifinancasfx.agifinancasfx.Model.Usuario;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -31,7 +31,7 @@ public class LoginController {
     @FXML
     private void fazerLogin(ActionEvent actionEvent) throws SQLException {
         Usuario usuario = this.usuarioDAO.buscarPorEmail(emailText.getText());
-        if (usuario != null && control.Senha.verificaSenha(passwordText.getText(), usuario.getSenha())) {
+        if (usuario != null && Senha.verificaSenha(passwordText.getText(), usuario.getSenha())) {
             System.out.println("Login bem sucedido.");
             this.usuarioAutenticado = this.usuarioDAO.buscarPorEmail(emailText.getText());
 

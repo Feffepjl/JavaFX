@@ -1,4 +1,4 @@
-package model;
+package agifinancasfx.agifinancasfx.Model;
 
 public class TelefoneUsuario {
     private int id_telefone;

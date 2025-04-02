@@ -17,7 +17,7 @@ public class Main extends Application {
 
         // Buscar controller e settar DAO
         LoginController controller = loader.getController();
-        controller.setUsuarioDAO(new DAO.UsuarioDAO()); // Certificar-se de DAO estar implementadp
+        controller.setUsuarioDAO(new UsuarioDAO()); // Certificar-se de DAO estar implementado
 
         // Settar o stage
         primaryStage.setTitle("Login System");

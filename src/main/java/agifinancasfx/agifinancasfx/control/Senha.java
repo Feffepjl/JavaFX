@@ -1,4 +1,4 @@
-package control;
+package agifinancasfx.agifinancasfx.control;
 import org.mindrot.jbcrypt.BCrypt;
 
 import java.sql.SQLException;

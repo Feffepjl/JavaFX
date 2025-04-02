@@ -1,6 +1,6 @@
-package DAO;
+package agifinancasfx.agifinancasfx.DAO;
 
-import model.*;
+import agifinancasfx.agifinancasfx.Model.*;
 import java.sql.*;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

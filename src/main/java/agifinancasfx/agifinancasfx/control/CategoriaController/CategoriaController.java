@@ -1,12 +1,12 @@
 package agifinancasfx.agifinancasfx.control.CategoriaController;
 
 import agifinancasfx.agifinancasfx.DAO.CategoriaDAO;
-import model.Categoria;
+import agifinancasfx.agifinancasfx.Model.Categoria;
 import java.sql.SQLException;
 import java.util.Comparator;
 import java.util.List;
 
-import model.Usuario;
+import agifinancasfx.agifinancasfx.Model.Usuario;
 
 public class CategoriaController {
     private Usuario usuario;

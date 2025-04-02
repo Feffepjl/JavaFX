@@ -1,14 +1,11 @@
-package control;
+package agifinancasfx.agifinancasfx.control;
 
-import DAO.ContaBancariaDAO;
-import model.Usuario;
-
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import agifinancasfx.agifinancasfx.DAO.ContaBancariaDAO;
+import agifinancasfx.agifinancasfx.Model.Usuario;
 
 public class SaldoController {
-    public static double saldoGeral(Usuario user){
+    public static double saldoGeral(Usuario usuarioAutenticado){
         ContaBancariaDAO contaBancariaDAO = new ContaBancariaDAO();
-        return contaBancariaDAO.saldoGeral(user);
+        return ContaBancariaDAO.saldoGeral(usuarioAutenticado);
     }
 }

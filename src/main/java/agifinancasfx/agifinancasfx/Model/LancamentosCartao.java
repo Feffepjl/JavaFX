@@ -1,9 +1,4 @@
-package model;
-
-import DAO.LancamentoCartaoDAO;
-
-import java.util.ArrayList;
-import java.util.List;
+package agifinancasfx.agifinancasfx.Model;
 
 public class LancamentosCartao {
         private int idLancamento;

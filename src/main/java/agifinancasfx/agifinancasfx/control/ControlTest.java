@@ -1,4 +1,4 @@
-package control;
+package agifinancasfx.agifinancasfx.control;
 
 public class ControlTest {
 }

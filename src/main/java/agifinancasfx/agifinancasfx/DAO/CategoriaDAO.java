@@ -1,8 +1,8 @@
 package agifinancasfx.agifinancasfx.DAO;
 
-import model.Categoria;
-import model.JDBC_Connection;
-import model.Usuario;
+import agifinancasfx.agifinancasfx.Model.Categoria;
+import agifinancasfx.agifinancasfx.Model.JDBC_Connection;
+import agifinancasfx.agifinancasfx.Model.Usuario;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

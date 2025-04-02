@@ -1,4 +1,4 @@
-package model;
+package agifinancasfx.agifinancasfx.Model;
 
 import java.sql.Date;
 

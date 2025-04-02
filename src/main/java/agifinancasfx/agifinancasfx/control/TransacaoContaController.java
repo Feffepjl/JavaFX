@@ -1,8 +1,8 @@
 package agifinancasfx.agifinancasfx.control;
 
-import DAO.TransacaoContaDAO;
-import model.TransacaoConta;
-import model.Usuario;
+import agifinancasfx.agifinancasfx.DAO.TransacaoContaDAO;
+import agifinancasfx.agifinancasfx.Model.TransacaoConta;
+import agifinancasfx.agifinancasfx.Model.Usuario;
 //import view.TransacaoConta.TransacaoContaView;
 
 public class TransacaoContaController {
